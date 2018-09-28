@@ -8,8 +8,6 @@ class LinearRegression:
 
 
     def predict(self, X):
-        #self.weights = np.array([[6.52739325]])
-        #self.bias = 22.745480225988704
         return np.dot(X, self.weights)+self.bias
 
 
